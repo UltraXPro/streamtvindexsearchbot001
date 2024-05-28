@@ -40,7 +40,7 @@ from util.keepalive import ping_server
 from lazybot.clients import initialize_clients
 
 
-PORT = 3000
+PORT = "8080"
 LazyPrincessBot.start()
 loop = asyncio.get_event_loop()
 
